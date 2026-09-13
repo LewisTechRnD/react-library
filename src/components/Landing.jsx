@@ -12,10 +12,11 @@ const Landing = () => {
                 <Link to="Features">
                     <button className="btn">Browse Books</button>
                 </Link>
-            </div>
-            <figure className="header__img--wrapper">
+             <figure className="header__img--wrapper">
                 <img src={UndrawBooks} alt="Books Illustration" />
             </figure>
+            </div>
+           
         </header>
        </section>
     );
